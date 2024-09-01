@@ -75,7 +75,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     padding: 1rem;
 }
 
@@ -94,7 +94,8 @@ main{
     border-radius: 2rem;
 }
 
-.input-bar:hover, .input-bar:focus-within{
+.input-bar:hover, 
+.input-bar:focus-within{
     box-shadow: 0 0 4px 1px rgb(245, 240, 240);
 }
 
@@ -119,4 +120,22 @@ main{
 
 .input-icon:hover{
     opacity: 0.6;
+}
+
+.button-grid{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button-grid button{
+    padding: .5rem 1rem;
+    border: 1px solid transparent;
+    /* created a border here for consistancy */
+    background: rgb(247, 245, 245);
+    border-radius: .25rem;
+}
+
+.button-grid button:hover{
+    border: 1px solid slategray;
 }
