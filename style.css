@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.google-header{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    gap: 1rem;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img-button{
+    border: none;
+    background: transparent;
+}
+
+.img-button img{
+    width: 30px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 100%;
+}
