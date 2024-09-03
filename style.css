@@ -139,3 +139,48 @@ main{
 .button-grid button:hover{
     border: 1px solid slategray;
 }
+
+.language-text{
+    font-size:  0.7rem;
+}
+
+.language-link{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.language-link:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(244, 244, 244);
+    font: 0.8rem;
+}
+
+footer > div{
+    padding: 1rem;
+}
+
+.footer-grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-links i{
+    color: green;
+}
+
+@media (min-width:640px){
+
+}
